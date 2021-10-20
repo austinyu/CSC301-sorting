@@ -22,25 +22,25 @@ The analysis of different sorting algorithms is in `Analysis` folder.
 
 ## Insertion Sort vs. Merge Sort
 
-![Screen Shot 2021-10-19 at 16.49.15](README.assets/Screen Shot 2021-10-19 at 16.49.15.png)
+![Screen Shot 2021-10-19 at 16.49.15](README.assets/img1.png)
 
 We can see that insertion sort which is an $O(n^2)$ algorithm is much slower than merge sort which is a $O(\log(n))$ complexity algorithm. 
 
 ## Merge Sort vs.Radix Sort
 
-![Screen Shot 2021-10-19 at 16.50.33](README.assets/Screen Shot 2021-10-19 at 16.50.33.png)
+![Screen Shot 2021-10-19 at 16.50.33](README.assets/img2.png)
 
 Merge sort is a $O(\log(n))$ algorithm, which is much slower than radix sort, which is a $O(n)$ algorithm. 
 
 ## Merge Sort vs. Tim Sort
 
-![Screen Shot 2021-10-19 at 16.52.36](README.assets/Screen Shot 2021-10-19 at 16.52.36.png)
+![Screen Shot 2021-10-19 at 16.52.36](README.assets/img3.png)
 
 Although both merge sort and tim sort are $O(\log(n))$ algorithms, Tim sort has a much better worst case performance than merge sort, because merge sort is slower than insertion sort when input size is small. Tim sort has a much better worst case performance. 
 
 ## Radix Sort vs. Bucket Sort
 
-![Screen Shot 2021-10-19 at 16.57.17](README.assets/Screen Shot 2021-10-19 at 16.57.17.png)
+![Screen Shot 2021-10-19 at 16.57.17](README.assets/img4.png)
 
 Both radix sort and bucket sort are $O(n)$ algorithms, but radix sort has a slightly better time complexity performance. Potential reason might be that since bucket sort use extra `bucket` strut. Both algorithms have linear time complexity. 
 
