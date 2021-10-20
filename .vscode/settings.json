@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "insertion-sort.h": "c",
+        "strutils.h": "c"
+    }
+}
